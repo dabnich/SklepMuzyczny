@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name = "SklepMuzyczny"  default="run-jar">
+
+	<path id="lib.path">
+		<pathelement path="bin"/>
+		<fileset dir="lib">
+			<include name="**/*.jar"/>
+		</fileset>
+	</path>
+
+
+	<target name = "compile" depends="create">
+		<javac srcdir = "src" destdir = "bin" >
+		<classpath refid="lib.path"/>
+		</javac>
+	</target>
+
+	<target name = "create" depends = "clean">
+		<mkdir dir = "bin/jar"/>
+		<mkdir dir = "bin/src/"/>
+		<mkdir dir = "bin/src/test"/>
+		<copy file="lib/log4j.properties" todir="bin" overwrite="true"/>
+	</target>
+
+	<target name = "clean">
+		<delete dir = "bin/src/test"/>
+		<delete dir = "bin/src/"/>
+		<delete dir = "bin/jar/"/>
+		<delete dir = "bin" />
+	</target>
+
+	<target name = "jar" depends = "compile">
+		 <classpath>
+            <pathelement location="lib/"/>
+        </classpath>
+		<jar destfile = "bin/jar/SklepMuzyczny.jar" basedir = "bin">
+			<manifest>
+				<attribute name = "Main-Class" value = "Main"/>
+			</manifest>
+		</jar>
+	</target>
+
+	<target name = "run-jar" depends="jar">
+		<java jar="bin/jar/SklepMuzyczny.jar" fork ="true"/>
+	</target>
+	
+	
+	
+
+
+
+
+</project>
