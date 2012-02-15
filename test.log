@@ -1,0 +1,18 @@
+2012-02-15 04:52:11,640 INFO  [main] src.Sklep         (   Sklep.java:21)     - Plyta: title zostala dodana
+2012-02-15 04:52:11,656 INFO  [main] src.Sklep         (   Sklep.java:102)     - Lista plyt o tytule: title
+2012-02-15 04:52:11,656 INFO  [main] src.Sklep         (   Sklep.java:105)     - Tytul: title	Wykonawca: wykonawca	Rodzaj: Jazz	Rok wydania: 1990	Cena: 30
+2012-02-15 04:52:11,656 INFO  [main] src.Sklep         (   Sklep.java:54)     - Plyta: title zostala usunieta
+2012-02-15 04:52:11,656 INFO  [main] src.Sklep         (   Sklep.java:21)     - Plyta: title zostala dodana
+2012-02-15 04:52:11,656 INFO  [main] src.Sklep         (   Sklep.java:123)     - Zmieniono cene na: 40 w tytule: title
+2012-02-15 04:52:11,656 INFO  [main] src.Sklep         (   Sklep.java:85)     - Lista plyt o cenie -40 zl
+2012-02-15 04:52:11,656 INFO  [main] src.Sklep         (   Sklep.java:88)     - Tytul: title	Wykonawca: wykonawca	Rodzaj: Jazz	Rok wydania: 1990	Cena: 40
+2012-02-15 04:52:11,656 INFO  [main] src.Sklep         (   Sklep.java:54)     - Plyta: title zostala usunieta
+2012-02-15 04:52:11,656 INFO  [main] src.Sklep         (   Sklep.java:21)     - Plyta: title zostala dodana
+2012-02-15 04:52:11,656 INFO  [main] src.Sklep         (   Sklep.java:123)     - Zmieniono cene na: 40 w tytule: title
+2012-02-15 04:52:11,656 INFO  [main] src.Sklep         (   Sklep.java:30)     - nullPosiada nastepujace plyty: 
+2012-02-15 04:52:11,671 INFO  [main] src.Sklep         (   Sklep.java:54)     - Plyta: title zostala usunieta
+2012-02-15 04:52:11,671 INFO  [main] src.Sklep         (   Sklep.java:21)     - Plyta: title zostala dodana
+2012-02-15 04:52:11,671 INFO  [main] src.Sklep         (   Sklep.java:143)     - Zmieniono rodzaj na: Rock w tytule: title
+2012-02-15 04:52:11,671 INFO  [main] src.Sklep         (   Sklep.java:68)     - Lista plyt w stylu: Rock
+2012-02-15 04:52:11,671 INFO  [main] src.Sklep         (   Sklep.java:71)     - Tytul: title	Wykonawca: wykonawca	Rodzaj: Rock	Rok wydania: 1990	Cena: 30
+2012-02-15 04:52:11,671 INFO  [main] src.Sklep         (   Sklep.java:54)     - Plyta: title zostala usunieta
